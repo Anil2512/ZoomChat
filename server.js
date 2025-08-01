@@ -125,5 +125,5 @@ io.on("connection", (socket) => {
 
 // 🚀 Start the Server
 server.listen(process.env.port, () => {
-  console.log("http://localhost:8080");
+  console.log("https://zoomchat-bf40.onrender.com");
 });

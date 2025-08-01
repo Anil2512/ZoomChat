@@ -67,7 +67,7 @@
     document.getElementById("chat-room").innerText = `Room: ${room}`;
 
     // 🔌 Connect to socket server
-    const socket = io("http://localhost:8080", { transports: ["websocket"] });
+    const socket = io("https://zoomchat-bf40.onrender.com", { transports: ["websocket"] });
 
 
     // 📌 Elements
